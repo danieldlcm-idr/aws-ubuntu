@@ -140,7 +140,7 @@ Validar que el servicio responde
 Si el servicio no responde, se puede revisar el log del servicio con el comando:
 
    ```bash
-   sudo journactl -u ecommerce.service
+   sudo journalctl -u ecommerce.service
    ```
 
 Si muestra mucho contenido pueden usar la tecla `q` para salir.
