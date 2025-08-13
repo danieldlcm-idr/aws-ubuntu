@@ -58,7 +58,8 @@ Para ello, salimos del servidor y dentro de la carpeta que hemos trabajado de ma
    touch 'archivo'.service
    ```
 
-Una vez creado, copiamos la siguiente información dentro del archivo service. Es necesario que modifiques la información con base en la configuración definida en la base de datos de MariaDB (db_name, userDB_name y password).
+Una vez creado, copiamos la siguiente información dentro del archivo service. Es necesario que modifiques la información con base en la configuración definida en la base de datos de MariaDB (db_name, userDB_name y password) de las líneas 10 - 12.
+Así mismo, modifica el nombre del archivo jar (línea 8).
 
    ```bash
    [Unit]
@@ -159,4 +160,5 @@ Siempre podemos reiniciar el sistema Ubuntu para que se reflejen los cambios nec
    ```bash
    sudo systemctl daemon-reload
    ```
+
 
