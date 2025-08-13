@@ -135,7 +135,7 @@ Para poder iniciar el servicio en AWS debemos activarlo con el comando.
 Validar que el servicio responde
 
    ```bash
-   curl http://localhost:8080
+   curl http://localhost:8080/index.html
    ```
 
 Si el servicio no responde, se puede revisar el log del servicio con el comando:
@@ -160,5 +160,6 @@ Siempre podemos reiniciar el sistema Ubuntu para que se reflejen los cambios nec
    ```bash
    sudo systemctl daemon-reload
    ```
+
 
 
