@@ -144,10 +144,6 @@ Si el servicio no responde, se puede revisar el log del servicio con el comando:
    sudo journalctl -u ecommerce.service
    ```
 
-Si muestra mucho contenido pueden usar la tecla `q` para salir.
-   Tecla G para ir al final
-   Tecla g para ir al principio
-
 
 ## Pasos siguientes
 
@@ -160,6 +156,7 @@ Siempre podemos reiniciar el sistema Ubuntu para que se reflejen los cambios nec
    ```bash
    sudo systemctl daemon-reload
    ```
+
 
 
 
